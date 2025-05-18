@@ -4,7 +4,7 @@ import streamlit as st
 import pickle
 
 # Load trained model
-with open("C:\\Users\\user\\Desktop\\Statistical Learning\\BankProject\\xgboost_model.pkl", "rb") as model_file:
+with open("xgboost_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Load expected feature names in the correct order
